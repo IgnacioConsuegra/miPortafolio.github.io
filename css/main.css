@@ -1,0 +1,48 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    width:100vw;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    display:inline;
+    color:black;
+
+}
+header{
+    width:100%;
+    height:140px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 1rem;
+}
+header .header-icons-container{
+    width:100%;
+    height:50px;
+    display:grid;
+}
+header .header-icons-container .icons{
+    width:300px;
+    height:auto;
+    display:flex;
+    justify-items: flex-end;
+    align-items:center;
+    justify-content: space-between;
+    justify-self:end;
+    margin-right: 50px;
+}
+
+header .icons span{
+    font-size: 35px;
+    color:white;
+}
+body{
+    background-image: url(/Blog/night-landscape-vector-illustration-planet-2004005-wallhere.com.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+}
