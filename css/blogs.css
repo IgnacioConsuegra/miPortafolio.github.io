@@ -1,0 +1,31 @@
+header{
+    width:100%;
+    height: 80px;
+    color:white;
+    background-color: #db214d;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+
+}
+header .nav-logo-container{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    margin-left:10px;
+    margin-top:5px;
+}
+header nav .nav-more-container{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+header nav .nav-more-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+}
