@@ -17,6 +17,7 @@ body{
     max-width:980px;
     margin:auto;
 }
+
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif; */
@@ -174,20 +175,20 @@ h1{
     height:10%;
 
 }
-.blogpost-img-container{
-    padding:0px 50px 40px;
+.blogpost-img-container {
+    padding: 0 50px 40px;
 }
-.blogpost-img-container img{ 
+.blogpost-img-container img {
     width: 100%;
 }
-.blogpost-main-container{
-    padding:0 50px 40px;
+.blogpost-main-container {
+    padding: 0 50px 40px;
 }
-.blogpost-main-container h3{
-    border-bottom:1px solid #cdd2da;
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
 }
-
-.blogpost-main-container h1{
+.blogpost-main-container article h1 {
     animation: typing 2s steps(13), blink .5s infinite step-end alternate;
     border-right: 4px solid; 
     color:black;
@@ -200,6 +201,59 @@ h1{
     white-space:nowrap;
     width: 13ch;
 }
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img {
+    width: 100px;
+}
+
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+.profile-main-container img {
+    width: 320px;
+    margin-right: 30px;
+}
+.profile-main-container .profile-container {
+    display: flex;
+}
+.profile-main-proyects {
+    padding: 0 50px 40px;
+}
+.profile-main-proyects h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.proyects-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.proyect-container {
+    padding: 0 5px;
+}
+
 footer {
     width:100%;
     font-size: 1rem;
