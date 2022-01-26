@@ -253,7 +253,13 @@ h1{
 .proyect-container {
     padding: 0 5px;
 }
-
+.proyect-container img{
+        width:100%;
+        height:40%;
+}
+.contact-main-container a{
+    color:black
+}
 footer {
     width:100%;
     font-size: 1rem;
@@ -265,6 +271,34 @@ footer {
 
 }
 footer .footer-icons-container{
+    margin: 0 auto;
+    height:50px;
+
+}
+footer .icons{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+footer .icons span{
+    font-size: 35px;
+}
+
+.index-foooter {
+    width:100%;
+    font-size: 1rem;
+    position: fixed;
+    /*Nota, para que este como originalmente planeaste tiene que estar bottom en 20, y sin background color*/
+    bottom: 20px;
+    background-color: unset;
+}
+footer .index-foooter {
     margin: 0 auto;
     height:50px;
 
